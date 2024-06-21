@@ -1,4 +1,49 @@
+:root {
+  --body-color: #ffeef4;
+  --btn-outline-color: #ffbebe;
+  --heading-font-family: "poppins", sans-serif;
+  --default-font-family: "playfair display", serif;
+}
+
+h1,
+p {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+}
+h2 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
 h1 {
-  font-family: playfair display;
-  font-weight: 500;
+  font-size: 96px;
+}
+.hero {
+  background: var(--body-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.btn-outline {
+  background: var(--btn-outline-color);
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-outline:hover {
+  color: black;
+  background: #ffbebe;
 }

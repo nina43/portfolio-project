@@ -34,7 +34,7 @@ p {
 .hero {
   background: var(--body-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -49,7 +49,7 @@ p {
   font-size: 24px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 58px;

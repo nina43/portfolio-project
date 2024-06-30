@@ -20,10 +20,27 @@
   <script src="https://kit.fontawesome.com/0e3bcb6bde.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="src/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About me</title>
+  <title>My work</title>
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MZ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="about.html#">About me</a>
+          <a class="nav-link" href="#">My work</a>
+          <a class="nav-link" href="contact.html#">Contact me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
   <div class="content-container container">
     <div class="content">
       <h1 class="mb-5">
@@ -32,28 +49,49 @@
 
       <div class="row">
         <div class="col-md-6 mb-4">
-          <img src="images/weather.png" alt="" class="img-fluid mb-3 rounded">
+          <img src="images/weather.png" alt="weather project picture" class="img-fluid mb-3 rounded">
           <h3 class="text-center m-0">Weather project</h3>
           <p class="text-center text-muted">Built with HTML, API, JS and CSS</p>
         </div>
         <div class="col-md-6">
-          <img src="images/world-clock.png" alt="" class="img-fluid mb-3 rounded">
+          <img src="images/world-clock.png" alt="World-clock picture" class="img-fluid mb-3 rounded">
           <h3 class="text-center m-0">World-clock project</h3>
           <p class="text-center text-muted">Built with HTML, JS and CSS</p>
         </div>
         <div class="col-md-6">
-          <img src="images/AI-itinerary.png" alt="" class="img-fluid mb-3 rounded">
+          <img src="images/AI-itinerary.png" alt="AI-itinerary picture" class="img-fluid mb-3 rounded">
           <h3 class="text-center m-0">AI-Travel Itinerary project</h3>
           <p class="text-center text-muted">Built with HTML, AI and CSS</p>
         </div>
         <div class="col-md-6">
-          <img src="images/baking.png" alt="" class="img-fluid mb-3 rounded">
+          <img src="images/baking.png" alt="baking picture" class="img-fluid mb-3 rounded">
           <h3 class="text-center m-0">Baking project</h3>
           <p class="text-center text-muted">Built with HTML, JS and CSS</p>
         </div>
       </div>
     </div>
   </div>
+  <footer class="container">
+    <div class="contact-box justify-content-between mb-5 d-none d-md-flex ">
+      <div>
+        <h4>Work Inquiry</h4>
+        <p class="text-muted">Let's work together</p>
+      </div>
+      <div> <a href="/contact.html" class="btn btn-outline mt-3">Contact me</a>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mb-5"> <a href="mailto:ziarek17@gmail.com"
+        class="email-link">ziarek17@gmail.com</a>
+    </div>
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://www.Instagram.com/martyna_codez" target="_blank"> <i class="fa-brands fa-instagram "></i></a>
+      <a href="https://www.linkedin.com/in/martyna-ziarek-a99b22304/" target="_blank"> <i
+          class="fa-brands fa-linkedin "></i></a>
+      <a href="https://www.GitHub.com/nina43" target="_blank"><i class="fa-brands fa-square-github "></i></a>
+    </div>
+    <p class="text-center mt-5"> This project was coded by <strong>Martyna Ziarek</strong> and is <a
+        href="https://www.GitHub.com/nina43" target="_blank">open-sourced</a></p>
+  </footer>
 
 </body>
 
